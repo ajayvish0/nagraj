@@ -13,11 +13,35 @@ app.get("/",function(req,res){
     console.log(req);
  });
 
- app.post("/",function(req,res){
-   res.send("We connect with you Shortly");
- })
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  app.post("/success",function(req,res){
+//    res.sendFile(__dirname+"/success.html");
+//    console.log(req.body);
+//  })
+
+ 
 
 app.listen(3000, function () {
     console.log("server is running on port 3000");
